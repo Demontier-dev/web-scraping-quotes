@@ -1,13 +1,28 @@
-# Web Scraping - Quotes to Scrape (Python)
+# Web Scraping – Quotes to Scrape (Python)
 
-Projeto de web scraping em Python usando **requests** e **BeautifulSoup**.
+A simple Python web scraping project that extracts quotes and authors from the website quotes.toscrape.com and saves the data into a CSV file.
 
-## O que ele faz
-- Acessa https://quotes.toscrape.com/
-- Extrai **frase** e **autor**
-- Salva em `quotes.csv` (abre no Excel)
+## Features
+- Extracts quotes and authors from a website
+- Uses HTTP requests to fetch data
+- Parses HTML with BeautifulSoup
+- Saves data into a CSV file compatible with Excel
 
-## Como rodar
-1) Instale as dependências:
-```bash
+## Technologies
+- Python
+- Requests
+- BeautifulSoup (bs4)
+- CSV
+
+## How to Run
+
+1. Install dependencies:
 pip install -r requirements.txt
+2. Run the script:
+python scraper.py
+
+## Output
+The script generates a file called quotes.csv containing the extracted quotes and authors.
+
+## Author
+Demontier-dev
